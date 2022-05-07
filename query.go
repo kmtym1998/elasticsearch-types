@@ -1,6 +1,6 @@
-package types
+package estypes
 
-type ElasticSearchQuery struct {
+type QueryRoot struct {
 	Query *Query `json:"query,omitempty"`
 	Size  int32  `json:"size,omitempty"`
 }
